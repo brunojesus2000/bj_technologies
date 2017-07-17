@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Inovação e qualidade em TI</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Entendendo a importância do negocio e trazendo soluções ágeis</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Saiba Mais</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'imgs/background1.jpg' %}" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">computer</i></h2>
+            <h5 class="center">Suporte presencial e remoto</h5>
+
+            <p class="light">Windows, Mac e Linux. Atendemos todas as plataformas de maneira agíl em suporte remoto ou presencial com uma equipe especializada em resolução de problemas em software e hardware.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">memory</i></h2>
+            <h5 class="center">Infraestrutura e Rede</h5>
+
+            <p class="light">Cabeamento estruturado, suporte a servidores Windows, Mac e Linux. Temos a melhor solução para ambientes existentes ou configuração de novos ambientes para alta disponibilidade ou desempenho.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Desenvolvimento</h5>
+
+            <p class="light">Desenvolvimento de aplicações web e mobile. Sites responsivos e interativos para o seu negócio. Lojas virtuais, portifólio, blog, etc...</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A tecnologia que cuida da sua informação e agiliza seu negócio</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'imgs/background2.jpg' %}" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Venha para a BJ Technologies</h4>
+          <p class="left-align light">Conheça o time que já trabalhou com diversas agências de publicidade e escritórios nos mais diversos segmentos. Temos toda a experiência que o seu negocio precisa para evoluir e a competência de profissionais que trabalham dia e noite para manter seu ambiente seguro e disponivel sem esquecer da necessidade de funcionamento do seu negócio.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Veja nosso portifólio</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{% static 'imgs/background3.jpg' %}" alt="Unsplashed background img 3"></div>
+  </div>
+{% endblock %}
